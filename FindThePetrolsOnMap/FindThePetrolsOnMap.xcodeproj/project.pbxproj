@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33169E221E5908AE0051B429 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33169E211E5908AE0051B429 /* CoreLocation.framework */; };
+		33261C621EA2DF4400701F13 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33261C611EA2DF4400701F13 /* CustomSearchBar.swift */; };
+		33261C641EA2EE3300701F13 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33261C631EA2EE3300701F13 /* CustomSearchController.swift */; };
+		33272DEF1E841DB000C062EE /* AllPetrolsOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33272DEE1E841DB000C062EE /* AllPetrolsOnMap.swift */; };
+		332EC5DE1E9131E1007F2478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332EC5DD1E9131E1007F2478 /* Assets.xcassets */; };
+		337F7EE21E562A16005831E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337F7EE11E562A16005831E2 /* AppDelegate.swift */; };
+		337F7EE41E562A16005831E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337F7EE31E562A16005831E2 /* ViewController.swift */; };
+		337F7EE71E562A16005831E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337F7EE51E562A16005831E2 /* Main.storyboard */; };
+		337F7EEC1E562A16005831E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337F7EEA1E562A16005831E2 /* LaunchScreen.storyboard */; };
+		337F7EF41E562BB4005831E2 /* ShowTheListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337F7EF31E562BB4005831E2 /* ShowTheListCell.swift */; };
+		338E35D61E96DAEC000CC4A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338E35D51E96DAEC000CC4A3 /* Images.xcassets */; };
+		338E35DE1E9702E1000CC4A3 /* InfosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E35DD1E9702E1000CC4A3 /* InfosTableViewController.swift */; };
+		338E35E01E9709F2000CC4A3 /* GetDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E35DF1E9709F2000CC4A3 /* GetDetailsTableViewCell.swift */; };
+		338E35E71E972D46000CC4A3 /* GetFirstDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E35E61E972D46000CC4A3 /* GetFirstDetailsTableViewCell.swift */; };
+		338E35E91E972D5A000CC4A3 /* GetSecoundDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E35E81E972D5A000CC4A3 /* GetSecoundDetailsTableViewCell.swift */; };
+		33BEDB031E986B3F00E997C3 /* PickerDistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BEDB021E986B3F00E997C3 /* PickerDistanceViewController.swift */; };
+		33BEDB051E986CD800E997C3 /* Photo-sep-14-7-40-59-pm_small1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33BEDB041E986CD800E997C3 /* Photo-sep-14-7-40-59-pm_small1.jpg */; };
+		33D035711E58AB0E00E62A42 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D035701E58AB0E00E62A42 /* MapKit.framework */; };
+		33D035731E58AB1800E62A42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D035721E58AB1800E62A42 /* UIKit.framework */; };
+		33D035751E58AB2000E62A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D035741E58AB2000E62A42 /* Foundation.framework */; };
+		33D035771E58AB2A00E62A42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D035761E58AB2A00E62A42 /* CoreGraphics.framework */; };
+		33D5CC4B1E56342B00F3BA32 /* PetrolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5CC4A1E56342B00F3BA32 /* PetrolsTableViewController.swift */; };
+		33D5CC4D1E5741DD00F3BA32 /* PetrolStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5CC4C1E5741DD00F3BA32 /* PetrolStations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33169E211E5908AE0051B429 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		33261C611EA2DF4400701F13 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		33261C631EA2EE3300701F13 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
+		33272DEE1E841DB000C062EE /* AllPetrolsOnMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPetrolsOnMap.swift; sourceTree = "<group>"; };
+		332EC5DD1E9131E1007F2478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		337F7EDE1E562A16005831E2 /* FindThePetrolsOnMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindThePetrolsOnMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337F7EE11E562A16005831E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		337F7EE31E562A16005831E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		337F7EE61E562A16005831E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		337F7EEB1E562A16005831E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		337F7EED1E562A16005831E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337F7EF31E562BB4005831E2 /* ShowTheListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTheListCell.swift; sourceTree = "<group>"; };
+		338E35D51E96DAEC000CC4A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		338E35DD1E9702E1000CC4A3 /* InfosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfosTableViewController.swift; sourceTree = "<group>"; };
+		338E35DF1E9709F2000CC4A3 /* GetDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		338E35E61E972D46000CC4A3 /* GetFirstDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFirstDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		338E35E81E972D5A000CC4A3 /* GetSecoundDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSecoundDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		33BEDB021E986B3F00E997C3 /* PickerDistanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerDistanceViewController.swift; sourceTree = "<group>"; };
+		33BEDB041E986CD800E997C3 /* Photo-sep-14-7-40-59-pm_small1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo-sep-14-7-40-59-pm_small1.jpg"; sourceTree = "<group>"; };
+		33D035701E58AB0E00E62A42 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		33D035721E58AB1800E62A42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33D035741E58AB2000E62A42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33D035761E58AB2A00E62A42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33D5CC4A1E56342B00F3BA32 /* PetrolsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetrolsTableViewController.swift; sourceTree = "<group>"; };
+		33D5CC4C1E5741DD00F3BA32 /* PetrolStations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetrolStations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D5CC711E57661700F3BA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33169E221E5908AE0051B429 /* CoreLocation.framework in Frameworks */,
+				33D035771E58AB2A00E62A42 /* CoreGraphics.framework in Frameworks */,
+				33D035751E58AB2000E62A42 /* Foundation.framework in Frameworks */,
+				33D035731E58AB1800E62A42 /* UIKit.framework in Frameworks */,
+				33D035711E58AB0E00E62A42 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337F7ED51E562A16005831E2 = {
+			isa = PBXGroup;
+			children = (
+				337F7EE01E562A16005831E2 /* FindThePetrolsOnMap */,
+				337F7EDF1E562A16005831E2 /* Products */,
+				33D0356F1E58AB0E00E62A42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		337F7EDF1E562A16005831E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337F7EDE1E562A16005831E2 /* FindThePetrolsOnMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337F7EE01E562A16005831E2 /* FindThePetrolsOnMap */ = {
+			isa = PBXGroup;
+			children = (
+				338E35E11E972670000CC4A3 /* MultipleCells */,
+				338E35DD1E9702E1000CC4A3 /* InfosTableViewController.swift */,
+				337F7EE11E562A16005831E2 /* AppDelegate.swift */,
+				337F7EE31E562A16005831E2 /* ViewController.swift */,
+				33BEDB041E986CD800E997C3 /* Photo-sep-14-7-40-59-pm_small1.jpg */,
+				337F7EE51E562A16005831E2 /* Main.storyboard */,
+				332EC5DD1E9131E1007F2478 /* Assets.xcassets */,
+				337F7EEA1E562A16005831E2 /* LaunchScreen.storyboard */,
+				337F7EED1E562A16005831E2 /* Info.plist */,
+				337F7EF31E562BB4005831E2 /* ShowTheListCell.swift */,
+				33D5CC4C1E5741DD00F3BA32 /* PetrolStations.swift */,
+				33D5CC4A1E56342B00F3BA32 /* PetrolsTableViewController.swift */,
+				33261C611EA2DF4400701F13 /* CustomSearchBar.swift */,
+				33261C631EA2EE3300701F13 /* CustomSearchController.swift */,
+				33272DEE1E841DB000C062EE /* AllPetrolsOnMap.swift */,
+				338E35D51E96DAEC000CC4A3 /* Images.xcassets */,
+				33BEDB021E986B3F00E997C3 /* PickerDistanceViewController.swift */,
+			);
+			path = FindThePetrolsOnMap;
+			sourceTree = "<group>";
+		};
+		338E35E11E972670000CC4A3 /* MultipleCells */ = {
+			isa = PBXGroup;
+			children = (
+				338E35DF1E9709F2000CC4A3 /* GetDetailsTableViewCell.swift */,
+				338E35E61E972D46000CC4A3 /* GetFirstDetailsTableViewCell.swift */,
+				338E35E81E972D5A000CC4A3 /* GetSecoundDetailsTableViewCell.swift */,
+			);
+			name = MultipleCells;
+			sourceTree = "<group>";
+		};
+		33D0356F1E58AB0E00E62A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33169E211E5908AE0051B429 /* CoreLocation.framework */,
+				33D035761E58AB2A00E62A42 /* CoreGraphics.framework */,
+				33D035741E58AB2000E62A42 /* Foundation.framework */,
+				33D035721E58AB1800E62A42 /* UIKit.framework */,
+				33D035701E58AB0E00E62A42 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		337F7EDD1E562A16005831E2 /* FindThePetrolsOnMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337F7EF01E562A16005831E2 /* Build configuration list for PBXNativeTarget "FindThePetrolsOnMap" */;
+			buildPhases = (
+				337F7EDA1E562A16005831E2 /* Sources */,
+				337F7EDC1E562A16005831E2 /* Resources */,
+				33D5CC711E57661700F3BA32 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindThePetrolsOnMap;
+			productName = FindThePetrolsOnMap;
+			productReference = 337F7EDE1E562A16005831E2 /* FindThePetrolsOnMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		337F7ED61E562A16005831E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					337F7EDD1E562A16005831E2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y8ZEK6U73F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 337F7ED91E562A16005831E2 /* Build configuration list for PBXProject "FindThePetrolsOnMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 337F7ED51E562A16005831E2;
+			productRefGroup = 337F7EDF1E562A16005831E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				337F7EDD1E562A16005831E2 /* FindThePetrolsOnMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		337F7EDC1E562A16005831E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337F7EEC1E562A16005831E2 /* LaunchScreen.storyboard in Resources */,
+				338E35D61E96DAEC000CC4A3 /* Images.xcassets in Resources */,
+				332EC5DE1E9131E1007F2478 /* Assets.xcassets in Resources */,
+				337F7EE71E562A16005831E2 /* Main.storyboard in Resources */,
+				33BEDB051E986CD800E997C3 /* Photo-sep-14-7-40-59-pm_small1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		337F7EDA1E562A16005831E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D5CC4D1E5741DD00F3BA32 /* PetrolStations.swift in Sources */,
+				337F7EF41E562BB4005831E2 /* ShowTheListCell.swift in Sources */,
+				33261C621EA2DF4400701F13 /* CustomSearchBar.swift in Sources */,
+				338E35E71E972D46000CC4A3 /* GetFirstDetailsTableViewCell.swift in Sources */,
+				338E35DE1E9702E1000CC4A3 /* InfosTableViewController.swift in Sources */,
+				33261C641EA2EE3300701F13 /* CustomSearchController.swift in Sources */,
+				338E35E01E9709F2000CC4A3 /* GetDetailsTableViewCell.swift in Sources */,
+				338E35E91E972D5A000CC4A3 /* GetSecoundDetailsTableViewCell.swift in Sources */,
+				337F7EE41E562A16005831E2 /* ViewController.swift in Sources */,
+				33BEDB031E986B3F00E997C3 /* PickerDistanceViewController.swift in Sources */,
+				33D5CC4B1E56342B00F3BA32 /* PetrolsTableViewController.swift in Sources */,
+				337F7EE21E562A16005831E2 /* AppDelegate.swift in Sources */,
+				33272DEF1E841DB000C062EE /* AllPetrolsOnMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		337F7EE51E562A16005831E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				337F7EE61E562A16005831E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		337F7EEA1E562A16005831E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				337F7EEB1E562A16005831E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		337F7EEE1E562A16005831E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		337F7EEF1E562A16005831E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		337F7EF11E562A16005831E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y8ZEK6U73F;
+				INFOPLIST_FILE = FindThePetrolsOnMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.FindThePetrolsOnMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		337F7EF21E562A16005831E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y8ZEK6U73F;
+				INFOPLIST_FILE = FindThePetrolsOnMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.FindThePetrolsOnMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		337F7ED91E562A16005831E2 /* Build configuration list for PBXProject "FindThePetrolsOnMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337F7EEE1E562A16005831E2 /* Debug */,
+				337F7EEF1E562A16005831E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337F7EF01E562A16005831E2 /* Build configuration list for PBXNativeTarget "FindThePetrolsOnMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337F7EF11E562A16005831E2 /* Debug */,
+				337F7EF21E562A16005831E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 337F7ED61E562A16005831E2 /* Project object */;
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*reddit.*"
+ 
+        }
+    },
+ 
+    {
+        "action": {
+            "type": "block"
+    },
+        "trigger": {
+            "url-filter": "https?://(www.)?cnn.*"
+ 
+        }
+ },
+    {
+        "action": {
+            "type": "css-display-none"
+            "selector: a[href*='www.reddit.com']"
+        },
+        "trigger": {
+            "url-filter": "https?://(www.)?cnn.*"
+   
+        }
+   }
+ 
+]
+ //start with any text would we like and is followed with reddit and is followed with more text
